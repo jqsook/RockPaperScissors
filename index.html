@@ -24,7 +24,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <button class="btn-go" onclick="goButton('cow')">GO!!!!</button>
+            <button class="btn-go" onclick="goButton(event)">GO!!!!</button>
           </li>
         </ul>
       </div>
@@ -42,7 +42,6 @@
                 <div class="card-body">
                   <h4 class="card-title">Player</h4>
                   <button class="btn-rock btn-card m-2" onclick="play(1)">
-                    <!--Can i just put numbers in place of the 'rock???'-->
                     Rock
                   </button>
                   <button class="btn-paper btn-card m-2" onclick="play(2)">
@@ -64,7 +63,6 @@
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Computer</h5>
-
                   <p class="card-text"></p>
                 </div>
               </div>

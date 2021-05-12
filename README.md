@@ -32,10 +32,10 @@ A good name for the argument might be `playerChoice`.
 Inside the function we will need to create a variable to hold the value for the computer's choice.
 For now, assign the value of computer's choice to "rock". -->
 
-### Determine a Winner!
+<!-- ### Determine a Winner!
 
 We are now going to add logic to the `play function` that will determine who wins the game.
-This will require a you to use `if` `else` statements.
+This will require a you to use `if` `else` statements. -->
 
 **TIP:** Before writing code, it may be beneficial to write down on a scrap of paper the logic that will be used
 to determine a winner. Writing in plain english before writing in code is a good idea!!!
