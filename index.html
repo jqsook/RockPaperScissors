@@ -11,6 +11,7 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <script src="apps.js"></script>
     <link rel="stylesheet" href="style.css" />
 
     <title>Rock-Paper-Scissors</title>
@@ -38,35 +39,33 @@
           <div class="col-12 deck-row">
             <div class="card-deck">
               <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap" />
                 <div class="card-body">
                   <h4 class="card-title">Player</h4>
-                  <div class="btn-rock btn-card" onclick="play('rock')">
+                  <button class="btn-rock btn-card m-2" onclick="play(1)">
+                    <!--Can i just put numbers in place of the 'rock???'-->
                     Rock
-                  </div>
-                  <div class="btn-paper btn-card" onclick="play('paper')">
+                  </button>
+                  <button class="btn-paper btn-card m-2" onclick="play(2)">
                     Paper
-                  </div>
-                  <div class="btn-scissor btn-card" onclick="play('scissor')">
+                  </button>
+                  <button class="btn-scissor btn-card m-2" onclick="play(3)">
                     Scissors
-                  </div>
+                  </button>
                   <p class="card-text"></p>
                 </div>
               </div>
               <div class="card align-items-center">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-
+                  <h5 class="card-title">Winner</h5>
                   <p class="card-text"></p>
                 </div>
               </div>
+              <!--This should display the computers choice-->
               <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap" />
                 <div class="card-body">
                   <h5 class="card-title">Computer</h5>
 
                   <p class="card-text"></p>
-                  <!--This should display the computers choice-->
                 </div>
               </div>
             </div>
