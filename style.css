@@ -1,0 +1,36 @@
+:root {
+  --bg-gray: rgb(53, 36, 36);
+  --button: blue;
+  --bg-rock: gray;
+  --bg-paper: rgb(156, 245, 248);
+  --bg-scissor: red;
+}
+
+body {
+  background-color: var(--bg-gray);
+  padding: 0;
+  margin: 0;
+}
+.deck-row {
+  margin-top: 25%;
+}
+.btn-go {
+  background-color: green;
+}
+.btn-card {
+  width: 10rem;
+}
+.btn-rock {
+  background-color: var(--bg-rock);
+}
+.btn-paper {
+  background-color: var(--bg-paper);
+}
+.btn-scissor {
+  background-color: var(--bg-scissor);
+}
+
+/* @media screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  }  try to make this an onclick event to display the center card. or build a function for the onclick to display the screen??*/

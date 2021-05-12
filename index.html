@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="apps.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Rock-Paper-Scissors</title>
+  </head>
+
+  <!-- Nav bar with go button -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand">Start --></a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <button class="btn-go" onclick="goButton('cow')">GO!!!!</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <body>
+    <main>
+      <!-- Three container Cards -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 deck-row">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap" />
+                <div class="card-body">
+                  <h4 class="card-title">Player</h4>
+                  <div class="btn-rock btn-card" onclick="play('rock')">
+                    Rock
+                  </div>
+                  <div class="btn-paper btn-card" onclick="play('paper')">
+                    Paper
+                  </div>
+                  <div class="btn-scissor btn-card" onclick="play('scissor')">
+                    Scissors
+                  </div>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+              <div class="card align-items-center">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+
+                  <p class="card-text"></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap" />
+                <div class="card-body">
+                  <h5 class="card-title">Computer</h5>
+
+                  <p class="card-text"></p>
+                  <!--This should display the computers choice-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
