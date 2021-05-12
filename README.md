@@ -2,25 +2,26 @@
 
 We are going to create the classic game Rock Paper Scissors.
 
-## User Interface
+<!-- ## User Interface -->
 
-Start by creating a user interface for the game.
+<!-- Start by creating a user interface for the game. -->
 
 <!-- The interface can look however you want it to. It might be a good idea
 to look at examples of the `card` component in the bootstrap documentation. -->
 
 <!-- The interface should be simple and must contain at least 3 buttons: Rock, Paper, and Scissors. -->
 
-When a button is pressed, the game should execute a function written in javascript.
+<!-- When a button is pressed, the game should execute a function written in javascript.
 Us the `onclick` attribute to execute the function. The rock button might look like this.
 
 ```html
-<button onclick="play('rock')">Rock</button>
-```
+<button onclick="play('rock')">Rock</button> -->
+
+````
 
 ## Javascript
 
-The following code should be written in the app.js file.
+<!-- The following code should be written in the app.js file. -->
 
 <!-- ### The Play Function -->
 
@@ -37,8 +38,8 @@ For now, assign the value of computer's choice to "rock". -->
 We are now going to add logic to the `play function` that will determine who wins the game.
 This will require a you to use `if` `else` statements. -->
 
-**TIP:** Before writing code, it may be beneficial to write down on a scrap of paper the logic that will be used
-to determine a winner. Writing in plain english before writing in code is a good idea!!!
+<!-- **TIP:** Before writing code, it may be beneficial to write down on a scrap of paper the logic that will be used
+to determine a winner. Writing in plain english before writing in code is a good idea!!! -->
 
 ```javascript
 
@@ -64,7 +65,7 @@ if(x > 5){
 		//x is greater than 7
 	}
 }
-```
+````
 
 When a winner is found, let the user know. You can do so by displaying an alert with a message...
 `google javascript alert`;
@@ -72,3 +73,11 @@ When a winner is found, let the user know. You can do so by displaying an alert 
 For bonus points, you may want to try writing a message back to the user interface. But I will let you try that one on your own. Hint... `document.getElementById()` and `.textContent`
 
 # Good Luck!
+
+function drawWinner(winner) {
+if (winner == computerChoice) {
+alert("Winner is Computer")
+} else {
+alert("Winner is Player")
+}
+}

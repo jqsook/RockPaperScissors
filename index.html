@@ -11,36 +11,24 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <script src="apps.js"></script>
+    <script src="app.js"></script>
     <link rel="stylesheet" href="style.css" />
 
     <title>Rock-Paper-Scissors</title>
   </head>
 
-  <!-- Nav bar with go button -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand">Start --></a>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <button class="btn-go" onclick="goButton(event)">GO!!!!</button>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
   <body>
     <main>
-      <!-- Three container Cards -->
+      <!-- It used to be Three container Cards but I narrowed it down to just one I want to focus on the JS test for functions and arrays more than styling up an html/css doc.-->
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 deck-row">
             <div class="card-deck">
-              <div class="card">
+              <div class="card align-content-center">
                 <div class="card-body">
-                  <h4 class="card-title">Player</h4>
+                  <h4 class="card-title">
+                    Lets Play a game of Rock, Paper, Scissors
+                  </h4>
                   <button class="btn-rock btn-card m-2" onclick="play(1)">
                     Rock
                   </button>
@@ -50,19 +38,6 @@
                   <button class="btn-scissor btn-card m-2" onclick="play(3)">
                     Scissors
                   </button>
-                  <p class="card-text"></p>
-                </div>
-              </div>
-              <div class="card align-items-center">
-                <div class="card-body">
-                  <h5 class="card-title">Winner</h5>
-                  <p class="card-text"></p>
-                </div>
-              </div>
-              <!--This should display the computers choice-->
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Computer</h5>
                   <p class="card-text"></p>
                 </div>
               </div>

@@ -29,8 +29,3 @@ body {
 .btn-scissor {
   background-color: var(--bg-scissor);
 }
-
-/* @media screen and (max-width: 600px) {
-  div.example {
-    display: none;
-  }  try to make this an onclick event to display the center card. or build a function for the onclick to display the screen??*/
